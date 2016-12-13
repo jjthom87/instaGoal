@@ -1,0 +1,328 @@
+/*----------------------
+---- Whole Page  ----
+------------------------*/
+html,body{
+    height:100%;
+    margin: auto;
+}
+
+/*----------------------
+---- Top Navbar  ----
+------------------------*/
+
+#top {
+    background-color: #a4ff98;
+    margin-top: -25px;
+}
+
+#top-navbar-right {
+	margin-right: 0px;
+}
+
+#top-navbar-right-bottom {
+    margin-right: 0px;
+}
+
+#top-navbar-left {
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 18px;
+	color: white;
+}
+
+.dropdown {
+    display: none;
+}
+
+#aboveImageText {
+    color: red;
+    font-family: 'Prociono', serif;
+}
+
+#belowPictureUpArrow {
+    font-size: 60px;
+}
+
+#belowPictureDownArrow {
+    font-size: 60px;
+}
+
+#belowPictureText {
+    font-size: 24px;
+    font-family: 'helvetica neue';
+    color: #5e36ff;
+}
+
+/*----------------------
+---- Top Section  ----
+------------------------*/
+
+#top-image {
+	margin-top: 25px;
+}
+
+#top-image:hover{
+    -moz-box-shadow: 0 0 50px #ccc;
+    -webkit-box-shadow: 0 0 50px #ccc;
+    box-shadow: 0 0 50px #ccc;
+}
+
+#top-image-text {
+    text-decoration: bold;
+	font-family: 'helvetica neue';
+    background-color: #a4ff98;
+}
+
+/*----------------------
+---- Modal  ----
+------------------------*/
+
+#storyText {
+    text-align: center;
+    width: 300px;
+    margin-left: -75px;
+}
+
+#storyHeaderText {
+    text-align: center;
+    text-decoration: underline;
+    margin-left: -15px;
+}
+
+#leftAboutButton {
+    margin-top: 65px;
+}
+
+#rightAboutButton {
+    margin-top: 65px;
+    margin-left: 70px;
+}
+
+/*----------------------
+---- Skills Section  ----
+------------------------*/
+
+#skills {
+    background-color: #ebccff;
+}
+
+#sectionTitle {
+    color: black;
+    font-size: 42px;
+    font-family: 'helvetica neue';
+}
+
+#endSection {
+    background-color: #f0baff;
+    width: 600px;
+    text-align: center;
+}
+
+#endTitle {
+    color: #028dff;
+    text-decoration: bold;
+    font-size: 36px;
+    font-family: 'Coiny', cursive;
+}
+
+#endTitleText {
+    color: #0325ff;
+    text-decoration: bold;
+    font-size: 18px;
+    font-family: 'Coiny', cursive;
+}
+
+#endSectionText {
+    width: 300px;
+}
+
+/*----------------------
+---- portfolio Section  ----
+------------------------*/
+
+#portfolio {
+    background-color: #a4ff98;
+}
+
+/*----------------------
+---- Carousel  ----
+------------------------*/
+
+.carouselMenu {
+    margin-top: 250px;
+    font-size: 60px;
+    color: black;
+}
+
+.carouselCaption {
+    color: black;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.carouselText {
+    color: black;
+    font-size: 24px;
+}
+
+/*----------------------
+---- Contact Section  ----
+------------------------*/
+
+#contact {
+    background-color: #ebccff;
+}
+
+#contactSubmitButton {
+    margin-top: 10px;
+}
+
+.well {
+    background-color: #ffd670;
+}
+
+.contactMeText {
+    color: #9c45ff;
+    font-family: 'David Libre', serif;
+}
+
+.labelText {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#messageSentText {
+    color: #ff3888
+    font-size: 18px;
+}
+
+#main-footer{
+    padding:40px 0;
+    background: #fff;
+}
+
+#bootom-navbar-right {
+    margin-right: 0px;
+}
+
+#bottom-navbar-left {
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.fa {
+    font-size: 24px;
+}
+
+/*----------------------
+---- Media Queries  ----
+------------------------*/
+
+@media (min-width:1500px){
+    .container{
+        width:1500px;
+    }
+}
+
+@media (max-width:1499px){
+    
+}
+
+@media (max-width:1199px){
+    
+}
+
+@media screen and (max-width: 320px){
+    #top-navbar-right {
+        display: none;
+    }
+
+    .navbar-header { 
+       text-align: center;
+    }
+
+    .dropdown {
+        display: inline-block;
+        margin-left: 120px;
+    }
+
+    #dropdownMenu {
+        color: white;
+    }
+
+    #top-image {
+        height: 150px;
+        width: 200px;
+    }
+
+    #storyText {
+        width: 100px;
+        margin-left: 46px;
+    }
+
+    #rightAboutButton {
+        top: -137px;
+        margin-top: 66px;
+        margin-left: 200px;
+    }
+
+    #leftAboutButton {
+        top: 186px;
+        margin-left: 17px;
+    }
+
+    .modal-bottom {
+        margin-top: -100px;
+    }
+
+    .modal-footer {
+        margin-top: 92px;
+    }
+
+    .centerblocks {
+        margin-left: 90px;
+    }
+
+    .ehSkill {
+        margin-left: -163px;
+        margin-top: 233px;
+    }
+
+    .exSkill {
+        margin-top: 216px;
+        margin-left: -167px;
+    }
+
+    #endSectionText {
+        width: 164px;
+    }
+
+    .feSkills {
+        display: inline-block;
+    }
+
+    .jobtroll {
+        margin-top: 162px;
+        margin-left: -167px;
+    }
+    
+    .glyphicon-menu-left {
+        margin-top: 50px;
+    }
+
+    .glyphicon-menu-right {
+        margin-top: 50px;
+    }
+
+    .navbar-fixed-bottom {
+        margin-bottom: -157px;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+    
+    
+}
+
