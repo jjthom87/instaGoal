@@ -72,9 +72,18 @@ html,body{
 
 .name-and-pic {
     display: inline-flex;
-    border-bottom: #918f8a;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+}
+
+.hr-links {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c8c6c6;
+}
+
+.hr-account-settings {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c8c6c6;
 }
 
 .page-links {
@@ -85,4 +94,18 @@ html,body{
     margin-bottom: 5px;
 }
 
+.name-and-pic-my-account {
+    display: inline-flex;
+    margin-left: 20px;
+}
 
+.profile-image {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.image-and-text {
+  display: inline-flex;  
+  align-items: center;
+}
