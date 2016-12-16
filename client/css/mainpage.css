@@ -4,6 +4,11 @@
 html,body{
     height:100%;
     margin: auto;
+    background-color: #edeae2;
+}
+
+.navbar {
+    background-color: #edeae2;
 }
 
 .middle-text {
@@ -36,6 +41,7 @@ html,body{
     padding: 8px 8px;
     text-align: center;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .top-nav-image {
@@ -49,9 +55,34 @@ html,body{
     border-style: solid;
     border-bottom-width: 5px;
 }
-/*----------------------
----- Top Navbar  ----
-------------------------*/
 
+.page-nav {
+    background-color: white;
+    padding-bottom: 450px;
+}
+
+.name-text {
+    font-family: gotham;
+    font-weight: bold;
+    color: #00c0e1;
+    font-size: 18px; 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.name-and-pic {
+    display: inline-flex;
+    border-bottom: #918f8a;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.page-links {
+    font-family: gotham;
+    font-weight: bold;
+    color: #00c0e1;
+    font-size: 14px; 
+    margin-bottom: 5px;
+}
 
 
