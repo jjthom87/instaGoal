@@ -142,7 +142,21 @@ html,body{
 }
 
 .input-tags-reset {
-    font-family: gotham medium;
+    font-family: gotham;
+    font-weight: bold;
     color: #014a57;
-    font-size: 13px;
+    font-size: 14px;
+}
+
+.support-text {
+    font-family: gotham;
+    font-weight: bold;
+    color: #014a57;
+    font-size: 12px;
+}
+
+.support-list {
+    font-family: gotham;
+    color: #7b7c7c;
+    font-size: 12px;
 }
