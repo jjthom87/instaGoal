@@ -19,8 +19,16 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 //setting up get route for items displayed on main page
-app.get('/', function(req, res){
+app.get('/accountsettings', function(req, res){
 	res.render('accountSettings');
+});
+
+app.get('/resetpassword', function(req, res){
+	res.render('resetPage');
+});
+
+app.get('/support', function(req, res){
+	res.render('supportPage');
 });
 
 //getting static files(css, js)

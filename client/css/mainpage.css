@@ -109,3 +109,29 @@ html,body{
   display: inline-flex;  
   align-items: center;
 }
+
+.input-tags {
+    font-family: gotham;
+    font-weight: bold;
+    color: #014a57;
+    font-size: 12px;
+    align-items: left;
+}
+
+.account-settings-input {
+    font-family: gotham book;
+    color: #787c7c;
+    font-size: 15px;  
+}
+
+.account-settings-save {
+    font-family: gotham;
+    font-weight: bold;
+    background-color: #00c0e1;
+    font-size: 14px;  
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
