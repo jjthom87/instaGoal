@@ -115,7 +115,6 @@ html,body{
     font-weight: bold;
     color: #014a57;
     font-size: 12px;
-    align-items: left;
 }
 
 .account-settings-input {
@@ -134,4 +133,16 @@ html,body{
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
+}
+
+.reset-password-text {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #00c0e1;
+}
+
+.input-tags-reset {
+    font-family: gotham medium;
+    color: #014a57;
+    font-size: 13px;
 }
