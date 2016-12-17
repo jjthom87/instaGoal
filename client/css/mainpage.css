@@ -160,3 +160,30 @@ html,body{
     color: #7b7c7c;
     font-size: 12px;
 }
+
+.edit-tag {
+    position: absolute;
+    right: 20px;
+}
+
+#changePasswordModal {
+  top: 30%;
+}
+
+.modal-title {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #00c0e1;
+}
+
+.bottom-button {
+    font-family: gotham;
+    font-weight: bold;
+    background-color: #00c0e1;
+    font-size: 14px;  
+    color: white;
+    border-radius: 4px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+}
